@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+</head>
+
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo border"></div>
+            </div>
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa fa-map-marker"></i>
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon.in" class="search-input">
+                <div class="search-icon">
+                    <i class="fa fa-search"></i>
+                </div>
+            </div>
+            <div class="nav-sign border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & lists</p>
+            </div>
+            <div class="nav-sign border">
+                <p><span>Return</span></p>
+                <p class="nav-second">&Order</p>
+            </div>
+            <div class="nav-cart border">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                Cart
+            </div>
+        </div>
+        <div class="penal">
+            <div class="penal-all">
+                <i class="fa fa-bars"></i>
+                All
+            </div>
+            <div class="penal-opt">
+                <p>Amazon miniTv</p>
+                <p>Sell</p>
+                <p>Best Seler</p>
+                <p>Mobiles</p>
+                <p>Today's deal</p>
+            </div>
+            <div class="penal-deal">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+    <div class="cart">
+        <div class="cart1">
+            <div class="cart1-head">
+                <h1 class="shop">Shopping Cart</h1>
+                <p class="price">Price</p>
+            </div>
+            <hr>
+            <div class="cart1-del">
+                <div class="cart-logo">
+                    <div class="c-logo"></div>
+                </div>
+                <div class="cart-detail">
+                    <h3>SAMSUNG</h3>
+                    <p style="margin: 10px 0;">Galaxy S23 Ultra Cell Phone, Unlocked Android Smartphone, 512GB, 200MP
+                        Camera, S Pen, Night Mode,
+                        Record 8K Video, Long Battery Life, Fastest Mobile Processor, US Version, 2023, Lavender
+                    </p>
+                    <p>500+ bought in past month</p>
+                    <p style="color:rgb(255, 89, 0); margin: 10px 0;">In stock</p>
+
+                    <input type="checkbox" name="" id="">This will be a gift learn more
+                    <br>
+                    <br>
+                    <select id="qty" onchange="fun()">
+                        <option value="1">Qty:1</option>
+                        <option value="2">Qty:2</option>
+                        <option value="3">Qty:3</option>
+                        <option value="more">More</option>
+                    </select> <span>| Delete | Save for later | See more like this | Share</span>
+                </div>
+                <hr>
+                <div class="cart1-price">
+                    <h4><span>&#8377;&nbsp;</span><span id="rupeeya" style="font-size: 16px;">29999</span>&nbsp;/-</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="total">
+                <h4><span style="font-size: 16px;">Total(items):-</sapn>
+                        <span>&#8377;&nbsp</span><span id="totalAmount" style="font-size: 16px;">29999</span>/-</h4>
+            </div>
+        </div>
+        <div class="cart2">
+            <input type="checkbox" name="" id="check">
+            Your order is eligible for FREE Deliver. Select this option at checkout . Details
+            <br><br>
+            <h4><span style="font-size: 16px;">Total(items):-</span>
+                <span>&#8377;&nbsp;</span><span id="checkoutTotal" style="font-size: 16px;">29999</span>/-
+            </h4>
+            <br>
+            <input type="checkbox" name="" id="">&nbsp;This order contain a gift
+            <br>
+            <button type="button" id="btn">Proceed to Buy</button>
+            <button type="button" id="btn2">EMI available</button>
+        </div>
+    </div>
+</body>
+<script src="js/script .js" defer></script>
+
+</html>
