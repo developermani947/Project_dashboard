@@ -1,0 +1,20 @@
+/*body{
+    background-color: aqua;
+}*/
+*{
+  margin: 0;
+  padding: 0;
+}
+.home1{
+ aspect-ratio: 5/2;
+}
+.form1{
+  background: linear-gradient(178.6deg, rgb(38, 68, 94) 11.8%, rgb(124, 143, 161) 83.8%);
+}
+.icon1{
+ font-size: 70px;
+ color: rebeccapurple;
+}
+.card1{
+  aspect-ratio: 3/2;
+}
