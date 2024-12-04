@@ -1,0 +1,83 @@
+body
+{
+//background-color:grey;
+}
+#outer
+{
+//height:550px;
+width:500px;
+background:linear-gradient(48deg,purple 10%,aqua 90%);
+border-radius:8%;
+margin:30px auto;
+padding:30px;
+}
+#search
+{
+height:100px;
+width:100%;
+//background-color:red;
+display:flex;
+justify-content:space-evenly;
+}
+#search input
+{
+height:50%;
+width:70%;
+font-size:25px;
+border-radius:20px;
+margin:auto 0;
+padding-left:10px;
+}
+#search button
+{
+height:55%;
+margin:auto;
+border-radius:30px;
+
+}
+#temp
+{
+text-align:center;
+font-size:60px;
+color:white;
+}
+#city
+{
+text-align:center;
+font-size:40px;
+color:white;
+}
+#footer
+{
+height:100px;
+width:100%;
+display:flex;
+justify-content:space-between;
+}
+.col
+{
+height:100%;
+width:180px;
+color:white;
+display:flex;
+justify-content:space-between;
+}
+
+.col img
+{
+width:30%;
+height:50%;
+margin:auto 0;
+}
+h2
+{
+margin:0;
+}
+.col div
+{
+margin:auto 0;
+}
+#weather
+{
+display:none;
+}
