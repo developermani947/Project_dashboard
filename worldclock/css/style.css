@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    margin: 200px 100px;
+}
+
+.ind {
+    height: 250px;
+    width: 400px;
+    /* border: 1px solid black; */
+    background-image:url("../img/china.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.ind h2 {
+    height: 50px;
+    width: 395px;
+    background-color: violet;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin-left: 5px;
+}
+
+#india {
+    margin-top: 60px;
+    color: green;
+}
+
+#china {
+    margin-top: 60px;
+    color: green;
+}
+
+#america {
+    margin-top: 60px;
+    color: green;
+}
+
+.ind h3 {
+    height: 50px;
+    width: 395px;
+    background-color:blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin: 40px 4px;
+  
+}
