@@ -1,0 +1,48 @@
+#clock
+{
+height:400px;
+width:400px;
+margin:auto;
+background-image:url("../img/clock.jpg");
+background-size:cover;
+position:relative;
+}
+#hr
+{
+height:140px;
+background-color:red;
+width:7px;
+position:absolute;
+top:63px;
+left:198px;
+transform-origin:bottom;
+}
+#min
+{
+height:150px;
+background-color:blue;
+width:5px;
+position:absolute;
+top:53px;
+left:198px;
+transform-origin:bottom;
+}
+#sec
+{
+height:160px;
+background-color:yellow;
+width:3px;
+position:absolute;
+top:43px;
+left:198px;
+transform-origin:bottom;
+}
+#dc
+{
+text-align: center;
+background-color: aqua;
+width: 100px;
+height: 25px;
+margin-bottom: 900px;
+margin-left: 700px;
+}
