@@ -1,0 +1,48 @@
+/*body{
+    background-color: red !important;
+}*/
+.slider1{
+    aspect-ratio: 5/2;
+}
+.fss{
+   
+    font-size: 70px;
+    color: orange;
+}
+.xyz{
+    background-color: aqua;
+}
+
+.hello{
+ border-radius: 4em 0; 
+     background-color:bisque;
+}
+
+.hello:hover{
+    border-radius: 4em 0; 
+     background-color:red;
+}
+.about1{
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+}
+.h11{
+    color:orange;
+}
+.card2{
+    aspect-ratio: 3/2;
+}
+.about2{
+    height: 65%;
+    width: 100%;
+    border-radius: 10px;
+}
+.chef1{
+height: 50%;
+width: 50%;
+}
+.table1{
+    height: 100%;
+width: 100%;
+}
